@@ -599,7 +599,7 @@ const GateDailyTracker = () => {
       </div>
 
       {/* CONTENT SCROLLABLE AREA */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-6 pb-24 flex flex-col items-center">
+      <div className="flex-1 overflow-y-auto p-4 space-y-6 pb-24">
         
         {/* APTITUDE SECTION */}
         <div 
@@ -627,7 +627,7 @@ const GateDailyTracker = () => {
         </div>
 
         {/* TASKS LIST */}
-        <div className="space-y-4 flex flex-col items-center">
+        <div className="space-y-4">
           <div className="flex items-center gap-2 text-slate-400 text-sm font-bold uppercase tracking-widest pl-2">
             <Target size={14} /> Core Tasks
           </div>
